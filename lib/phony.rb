@@ -4,72 +4,72 @@
 
 # Framework.
 #
-#load File.expand_path '../phony/config.rb', __FILE__
-#load File.expand_path '../phony/vanity.rb', __FILE__
-#load File.expand_path '../phony/local_splitters/fixed.rb', __FILE__
-#load File.expand_path '../phony/local_splitters/regex.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/dsl.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/fixed.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/variable.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/regex.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/default.rb', __FILE__
-#load File.expand_path '../phony/national_splitters/none.rb', __FILE__
-#load File.expand_path '../phony/national_code.rb', __FILE__
-#load File.expand_path '../phony/country.rb', __FILE__
-#load File.expand_path '../phony/trunk_code.rb', __FILE__
-#load File.expand_path '../phony/country_codes.rb', __FILE__
-#load File.expand_path '../phony/dsl.rb', __FILE__
+require '../phony/config.rb'
+require '../phony/vanity.rb'
+require '../phony/local_splitters/fixed.rb',
+require '../phony/local_splitters/regex.rb',
+require '../phony/national_splitters/dsl.rb',
+require '../phony/national_splitters/fixed.rb',
+require '../phony/national_splitters/variable.rb',
+require '../phony/national_splitters/regex.rb',
+require '../phony/national_splitters/default.rb',
+require '../phony/national_splitters/none.rb',
+require '../phony/national_code.rb',
+require '../phony/country.rb',
+require '../phony/trunk_code.rb',
+require '../phony/country_codes.rb',
+require '../phony/dsl.rb',
 
 # Countries.
 #
 # The ones that need more space to define.
 #
-#load File.expand_path '../phony/countries/argentina.rb', __FILE__
-#load File.expand_path '../phony/countries/austria.rb', __FILE__
-#load File.expand_path '../phony/countries/bangladesh.rb', __FILE__
-#load File.expand_path '../phony/countries/belarus.rb', __FILE__
-#load File.expand_path '../phony/countries/brazil.rb', __FILE__
-#load File.expand_path '../phony/countries/cambodia.rb', __FILE__
-#load File.expand_path '../phony/countries/croatia.rb', __FILE__
-#load File.expand_path '../phony/countries/china.rb', __FILE__
-#load File.expand_path '../phony/countries/georgia.rb', __FILE__
-#load File.expand_path '../phony/countries/germany.rb', __FILE__
-#load File.expand_path '../phony/countries/guinea.rb', __FILE__
-#load File.expand_path '../phony/countries/india.rb', __FILE__
-#load File.expand_path '../phony/countries/indonesia.rb', __FILE__
-#load File.expand_path '../phony/countries/ireland.rb', __FILE__
-#load File.expand_path '../phony/countries/italy.rb', __FILE__
-#load File.expand_path '../phony/countries/japan.rb', __FILE__
-#load File.expand_path '../phony/countries/kyrgyzstan.rb', __FILE__
-#load File.expand_path '../phony/countries/latvia.rb', __FILE__
-#load File.expand_path '../phony/countries/libya.rb', __FILE__
-#load File.expand_path '../phony/countries/malaysia.rb', __FILE__
-#load File.expand_path '../phony/countries/moldova.rb', __FILE__
-#load File.expand_path '../phony/countries/montenegro.rb', __FILE__
-#load File.expand_path '../phony/countries/myanmar.rb', __FILE__
-#load File.expand_path '../phony/countries/namibia.rb', __FILE__
-#load File.expand_path '../phony/countries/nepal.rb', __FILE__
-#load File.expand_path '../phony/countries/netherlands.rb', __FILE__
-#load File.expand_path '../phony/countries/pakistan.rb', __FILE__
-#load File.expand_path '../phony/countries/paraguay.rb', __FILE__
-#load File.expand_path '../phony/countries/russia_kazakhstan_abkhasia_south_ossetia.rb', __FILE__
-#load File.expand_path '../phony/countries/saudi_arabia.rb', __FILE__
-#load File.expand_path '../phony/countries/serbia.rb', __FILE__
-#load File.expand_path '../phony/countries/somalia.rb', __FILE__
-#load File.expand_path '../phony/countries/south_korea.rb', __FILE__
-#load File.expand_path '../phony/countries/sweden.rb', __FILE__
-#load File.expand_path '../phony/countries/taiwan.rb', __FILE__
-#load File.expand_path '../phony/countries/tajikistan.rb', __FILE__
-#load File.expand_path '../phony/countries/turkmenistan.rb', __FILE__
-#load File.expand_path '../phony/countries/vietnam.rb', __FILE__
-#load File.expand_path '../phony/countries/ukraine.rb', __FILE__
-#load File.expand_path '../phony/countries/united_kingdom.rb', __FILE__
-#load File.expand_path '../phony/countries/uruguay.rb', __FILE__
-#load File.expand_path '../phony/countries/zimbabwe.rb', __FILE__
+ require '../phony/countries/argentina.rb',
+ require '../phony/countries/austria.rb',
+ require '../phony/countries/bangladesh.rb',
+ require '../phony/countries/belarus.rb',
+ require '../phony/countries/brazil.rb',
+ require '../phony/countries/cambodia.rb',
+ require '../phony/countries/croatia.rb',
+ require '../phony/countries/china.rb',
+ require '../phony/countries/georgia.rb',
+ require '../phony/countries/germany.rb',
+ require '../phony/countries/guinea.rb',
+ require '../phony/countries/india.rb',
+ require '../phony/countries/indonesia.rb',
+ require '../phony/countries/ireland.rb',
+ require '../phony/countries/italy.rb',
+ require '../phony/countries/japan.rb',
+ require '../phony/countries/kyrgyzstan.rb',
+ require '../phony/countries/latvia.rb',
+ require '../phony/countries/libya.rb',
+ require '../phony/countries/malaysia.rb',
+ require '../phony/countries/moldova.rb',
+ require '../phony/countries/montenegro.rb',
+ require '../phony/countries/myanmar.rb',
+ require '../phony/countries/namibia.rb',
+ require '../phony/countries/nepal.rb',
+ require '../phony/countries/netherlands.rb',
+ require '../phony/countries/pakistan.rb',
+ require '../phony/countries/paraguay.rb',
+ require '../phony/countries/russia_kazakhstan_abkhasia_south_ossetia',
+ require '../phony/countries/saudi_arabia.rb',
+ require '../phony/countries/serbia.rb',
+ require '../phony/countries/somalia.rb',
+ require '../phony/countries/south_korea.rb',
+ require '../phony/countries/sweden.rb',
+ require '../phony/countries/taiwan.rb',
+ require '../phony/countries/tajikistan.rb',
+ require '../phony/countries/turkmenistan.rb',
+ require '../phony/countries/vietnam.rb',
+ require '../phony/countries/ukraine.rb',
+ require '../phony/countries/united_kingdom.rb',
+ require '../phony/countries/uruguay.rb',
+ require '../phony/countries/zimbabwe'
 
 # All other countries.
 #
-#load File.expand_path '../phony/countries.rb', __FILE__
+require '../phony/countries'
 
 # Phony is the main module and is generally used to process
 # E164 phone numbers directly.
