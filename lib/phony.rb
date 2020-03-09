@@ -4,67 +4,67 @@
 
 # Framework.
 #
-require '../phony/config.rb'
-require '../phony/vanity.rb'
-require '../phony/local_splitters/fixed.rb',
-require '../phony/local_splitters/regex.rb',
-require '../phony/national_splitters/dsl.rb',
-require '../phony/national_splitters/fixed.rb',
-require '../phony/national_splitters/variable.rb',
-require '../phony/national_splitters/regex.rb',
-require '../phony/national_splitters/default.rb',
-require '../phony/national_splitters/none.rb',
-require '../phony/national_code.rb',
-require '../phony/country.rb',
-require '../phony/trunk_code.rb',
-require '../phony/country_codes.rb',
-require '../phony/dsl.rb',
+require '../phony/config'
+require '../phony/vanity'
+require '../phony/local_splitters/fixed'
+require '../phony/local_splitters/regex'
+require '../phony/national_splitters/dsl'
+require '../phony/national_splitters/fixed'
+require '../phony/national_splitters/variable'
+require '../phony/national_splitters/regex'
+require '../phony/national_splitters/default'
+require '../phony/national_splitters/none'
+require '../phony/national_code'
+require '../phony/country'
+require '../phony/trunk_code'
+require '../phony/country_codes'
+require '../phony/dsl'
 
 # Countries.
 #
 # The ones that need more space to define.
 #
- require '../phony/countries/argentina.rb',
- require '../phony/countries/austria.rb',
- require '../phony/countries/bangladesh.rb',
- require '../phony/countries/belarus.rb',
- require '../phony/countries/brazil.rb',
- require '../phony/countries/cambodia.rb',
- require '../phony/countries/croatia.rb',
- require '../phony/countries/china.rb',
- require '../phony/countries/georgia.rb',
- require '../phony/countries/germany.rb',
- require '../phony/countries/guinea.rb',
- require '../phony/countries/india.rb',
- require '../phony/countries/indonesia.rb',
- require '../phony/countries/ireland.rb',
- require '../phony/countries/italy.rb',
- require '../phony/countries/japan.rb',
- require '../phony/countries/kyrgyzstan.rb',
- require '../phony/countries/latvia.rb',
- require '../phony/countries/libya.rb',
- require '../phony/countries/malaysia.rb',
- require '../phony/countries/moldova.rb',
- require '../phony/countries/montenegro.rb',
- require '../phony/countries/myanmar.rb',
- require '../phony/countries/namibia.rb',
- require '../phony/countries/nepal.rb',
- require '../phony/countries/netherlands.rb',
- require '../phony/countries/pakistan.rb',
- require '../phony/countries/paraguay.rb',
- require '../phony/countries/russia_kazakhstan_abkhasia_south_ossetia',
- require '../phony/countries/saudi_arabia.rb',
- require '../phony/countries/serbia.rb',
- require '../phony/countries/somalia.rb',
- require '../phony/countries/south_korea.rb',
- require '../phony/countries/sweden.rb',
- require '../phony/countries/taiwan.rb',
- require '../phony/countries/tajikistan.rb',
- require '../phony/countries/turkmenistan.rb',
- require '../phony/countries/vietnam.rb',
- require '../phony/countries/ukraine.rb',
- require '../phony/countries/united_kingdom.rb',
- require '../phony/countries/uruguay.rb',
+ require '../phony/countries/argentina'
+ require '../phony/countries/austria'
+ require '../phony/countries/bangladesh'
+ require '../phony/countries/belarus'
+ require '../phony/countries/brazil'
+ require '../phony/countries/cambodia'
+ require '../phony/countries/croatia'
+ require '../phony/countries/china'
+ require '../phony/countries/georgia'
+ require '../phony/countries/germany'
+ require '../phony/countries/guinea'
+ require '../phony/countries/india'
+ require '../phony/countries/indonesia'
+ require '../phony/countries/ireland'
+ require '../phony/countries/italy'
+ require '../phony/countries/japan'
+ require '../phony/countries/kyrgyzstan'
+ require '../phony/countries/latvia'
+ require '../phony/countries/libya'
+ require '../phony/countries/malaysia'
+ require '../phony/countries/moldova'
+ require '../phony/countries/montenegro'
+ require '../phony/countries/myanmar'
+ require '../phony/countries/namibia'
+ require '../phony/countries/nepal'
+ require '../phony/countries/netherlands'
+ require '../phony/countries/pakistan'
+ require '../phony/countries/paraguay'
+ require '../phony/countries/russia_kazakhstan_abkhasia_south_ossetia'
+ require '../phony/countries/saudi_arabia'
+ require '../phony/countries/serbia'
+ require '../phony/countries/somalia'
+ require '../phony/countries/south_korea'
+ require '../phony/countries/sweden'
+ require '../phony/countries/taiwan'
+ require '../phony/countries/tajikistan'
+ require '../phony/countries/turkmenistan'
+ require '../phony/countries/vietnam'
+ require '../phony/countries/ukraine'
+ require '../phony/countries/united_kingdom'
+ require '../phony/countries/uruguay'
  require '../phony/countries/zimbabwe'
 
 # All other countries.
